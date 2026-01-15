@@ -60,6 +60,8 @@ jobs:
       #Test_Project_Path: your-test-project-path                 # Replace with the path to your test project, i.e. MyWpfApp.Tests\MyWpfApp.Tests.csproj.
       #Wap_Project_Directory: your-wap-project-directory-name    # Replace with the Wap project directory relative to the solution, i.e. MyWpfApp.Package.
       #Wap_Project_Path: your-wap-project-path                   # Replace with the path to your Wap project, i.e. MyWpf.App.Package\MyWpfApp.Package.wapproj.
+      PROJECT_FILE: '.csproj'
+      BUILD_CONFIGURATION: 'Release' # Equivalent to $(buildConfiguration)
 
     steps:
     - name: Checkout
@@ -88,7 +90,7 @@ jobs:
         Configuration: ${{ matrix.configuration }}
     
     - name: Publish
-      run: dotnet publish $env:Solution_Name --configuration Release --output $(Build.ArtifactStagingDirectory)/publish
+      run: dotnet publish ${{ env.PROJECT_FILE }} --configuration ${{ env.BUILD_CONFIGURATION }} -o ${{ github.workspace }}/publish_output
     
     # Decode the base 64 encoded pfx and save the Signing_Certificate
     #- name: Decode the pfx
