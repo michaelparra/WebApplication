@@ -96,7 +96,7 @@ jobs:
     - name: Upload artifact for deployment job
       uses: actions/upload-artifact@v4
       with:
-        name: ${{ env.APP_NAME }}-${{ env.BUILD_CONFIGURATION }}
+        name: ${{ env.APP_NAME }}-${{ matrix.configuration }}
         path: ${{ github.workspace }}/publish_output
     # Decode the base 64 encoded pfx and save the Signing_Certificate
     #- name: Decode the pfx
