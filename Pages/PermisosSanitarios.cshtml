@@ -1,0 +1,367 @@
+@page
+@model WebApplication3.Pages.PermisosSanitariosModel
+@{
+    ViewData["Title"] = "Permisos Sanitarios";
+}
+
+<div class="container">
+    <h1 class="section-title">🏥 Permisos Sanitarios</h1>
+    <p class="lead mb-4">Guía completa sobre permisos sanitarios para food truck de café en Chile</p>
+
+    <div class="warning-box">
+        <h4>⚠️ Importante Legal</h4>
+        <p>
+            El <strong>Reglamento Sanitario de los Alimentos (RSA)</strong> del Ministerio de Salud de Chile
+            regula todas las actividades relacionadas con la manipulación y venta de alimentos.
+            Es <strong>obligatorio</strong> obtener el permiso sanitario antes de iniciar operaciones.
+        </p>
+    </div>
+
+    <div class="recipe-card">
+        <h3 class="recipe-title">¿Qué es el Permiso Sanitario?</h3>
+        <div class="row">
+            <div class="col-md-8">
+                <p>
+                    El permiso sanitario es la autorización que otorga la Secretaría Regional Ministerial de Salud (SEREMI)
+                    para operar un establecimiento de alimentos. Para food trucks, se requiere un permiso específico
+                    que acredita que el vehículo cumple con las normas sanitarias.
+                </p>
+                <h5>Tipos de Permisos:</h5>
+                <ul>
+                    <li><strong>Permiso Sanitario de Funcionamiento:</strong>
+                        <ul>
+                            <li>Para establecimientos fijos</li>
+                            <li>Válido mientras se mantengan las condiciones</li>
+                        </ul>
+                    </li>
+                    <li><strong>Permiso Sanitario para Vehículos Móviles:</strong>
+                        <ul>
+                            <li>Específico para food trucks</li>
+                            <li>Requiere renovación periódica</li>
+                            <li>Válido en la región donde se otorga</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <div class="img-placeholder">
+                    <div>
+                        <i style="font-size: 3rem;">📋</i>
+                        <p>Permiso</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="recipe-card">
+        <h3 class="recipe-title">Requisitos para Obtener el Permiso</h3>
+        <div class="row">
+            <div class="col-md-8">
+                <h5>Documentos Necesarios:</h5>
+                <ul>
+                    <li><strong>Documentación del Vehículo:</strong>
+                        <ul>
+                            <li>Certificado de dominio del vehículo</li>
+                            <li>Revisión técnica vigente</li>
+                            <li>Permiso de circulación</li>
+                        </ul>
+                    </li>
+                    <li><strong>Documentación del Local/Espacio:</strong>
+                        <ul>
+                            <li>Contrato de arriendo o propiedad (si aplica)</li>
+                            <li>Croquis del food truck</li>
+                            <li>Especificaciones técnicas</li>
+                        </ul>
+                    </li>
+                    <li><strong>Capacitación del Personal:</strong>
+                        <ul>
+                            <li>Certificado de curso de manipulación de alimentos</li>
+                            <li>Vigente (renovación cada 3 años)</li>
+                            <li>Para todos los que manipulen alimentos</li>
+                        </ul>
+                    </li>
+                    <li><strong>Examen Médico:</strong>
+                        <ul>
+                            <li>Certificado médico de salud</li>
+                            <li>Examen de heces (coprocultivo)</li>
+                            <li>Vigencia según normativa local</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <div class="img-placeholder">
+                    <div>
+                        <i style="font-size: 3rem;">📄</i>
+                        <p>Documentos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="recipe-card">
+        <h3 class="recipe-title">Requisitos del Food Truck</h3>
+        <div class="row">
+            <div class="col-md-8">
+                <h5>Infraestructura Sanitaria:</h5>
+                <ul>
+                    <li><strong>Agua Potable:</strong>
+                        <ul>
+                            <li>Tanque de agua potable certificada</li>
+                            <li>Capacidad mínima según normativa</li>
+                            <li>Sistema de distribución</li>
+                            <li>Certificado de calidad del agua</li>
+                        </ul>
+                    </li>
+                    <li><strong>Lavamanos:</strong>
+                        <ul>
+                            <li>Agua caliente y fría</li>
+                            <li>Jabón y toallas desechables</li>
+                            <li>Ubicado en área de preparación</li>
+                        </ul>
+                    </li>
+                    <li><strong>Refrigeración:</strong>
+                        <ul>
+                            <li>Refrigerador con termómetro</li>
+                            <li>Temperatura ≤4°C</li>
+                            <li>Registro de temperaturas</li>
+                        </ul>
+                    </li>
+                    <li><strong>Almacenamiento:</strong>
+                        <ul>
+                            <li>Alimentos separados y organizados</li>
+                            <li>Contenedores herméticos</li>
+                            <li>Rotulación de productos</li>
+                        </ul>
+                    </li>
+                    <li><strong>Eliminación de Residuos:</strong>
+                        <ul>
+                            <li>Contenedores con tapa</li>
+                            <li>Separación de residuos</li>
+                            <li>Eliminación adecuada</li>
+                        </ul>
+                    </li>
+                    <li><strong>Ventilación:</strong>
+                        <ul>
+                            <li>Extracción de vapor y olores</li>
+                            <li>Circulación de aire</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <div class="img-placeholder">
+                    <div>
+                        <i style="font-size: 3rem;">🚚</i>
+                        <p>Food Truck</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="recipe-card">
+        <h3 class="recipe-title">Proceso de Obtención</h3>
+        <div class="row">
+            <div class="col-md-8">
+                <h5>Pasos a Seguir:</h5>
+                <ol>
+                    <li><strong>Preparación:</strong>
+                        <ul>
+                            <li>Reunir toda la documentación</li>
+                            <li>Asegurar que el food truck cumple requisitos</li>
+                            <li>Capacitar al personal</li>
+                        </ul>
+                    </li>
+                    <li><strong>Solicitud:</strong>
+                        <ul>
+                            <li>Presentar solicitud en SEREMI de Salud de tu región</li>
+                            <li>Completar formulario correspondiente</li>
+                            <li>Adjuntar documentos requeridos</li>
+                        </ul>
+                    </li>
+                    <li><strong>Inspección:</strong>
+                        <ul>
+                            <li>Inspección sanitaria del vehículo</li>
+                            <li>Verificación de cumplimiento de normas</li>
+                            <li>Revisión de documentación</li>
+                        </ul>
+                    </li>
+                    <li><strong>Correcciones (si aplica):</strong>
+                        <ul>
+                            <li>Realizar ajustes solicitados</li>
+                            <li>Nueva inspección si es necesario</li>
+                        </ul>
+                    </li>
+                    <li><strong>Otorgamiento:</strong>
+                        <ul>
+                            <li>Emisión del permiso sanitario</li>
+                            <li>Vigencia según normativa</li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+            <div class="col-md-4">
+                <div class="img-placeholder">
+                    <div>
+                        <i style="font-size: 3rem;">📝</i>
+                        <p>Proceso</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="recipe-card">
+        <h3 class="recipe-title">Capacitación en Manipulación de Alimentos</h3>
+        <div class="row">
+            <div class="col-md-8">
+                <h5>Requisitos:</h5>
+                <ul>
+                    <li><strong>Curso Obligatorio:</strong>
+                        <ul>
+                            <li>Mínimo 6 horas de capacitación</li>
+                            <li>Reconocido por SEREMI de Salud</li>
+                            <li>Certificado vigente</li>
+                        </ul>
+                    </li>
+                    <li><strong>Contenido del Curso:</strong>
+                        <ul>
+                            <li>Higiene personal</li>
+                            <li>Manipulación de alimentos</li>
+                            <li>Almacenamiento</li>
+                            <li>Limpieza y sanitización</li>
+                            <li>Control de temperaturas</li>
+                            <li>Prevención de enfermedades</li>
+                        </ul>
+                    </li>
+                    <li><strong>Renovación:</strong>
+                        <ul>
+                            <li>Cada 3 años</li>
+                            <li>Mantener certificado actualizado</li>
+                        </ul>
+                    </li>
+                    <li><strong>Dónde Obtenerlo:</strong>
+                        <ul>
+                            <li>Institutos técnicos</li>
+                            <li>Organismos certificados</li>
+                            <li>Algunos municipios ofrecen cursos</li>
+                            <li>Online (verificar reconocimiento)</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <div class="img-placeholder">
+                    <div>
+                        <i style="font-size: 3rem;">🎓</i>
+                        <p>Capacitación</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="recipe-card">
+        <h3 class="recipe-title">Mantenimiento del Permiso</h3>
+        <div class="row">
+            <div class="col-md-8">
+                <h5>Obligaciones Continuas:</h5>
+                <ul>
+                    <li><strong>Inspecciones:</strong>
+                        <ul>
+                            <li>Inspecciones periódicas de SEREMI</li>
+                            <li>Inspecciones sorpresa</li>
+                            <li>Mantener condiciones sanitarias</li>
+                        </ul>
+                    </li>
+                    <li><strong>Registros:</strong>
+                        <ul>
+                            <li>Registro de temperaturas</li>
+                            <li>Registro de limpieza</li>
+                            <li>Registro de recepción de productos</li>
+                            <li>Disponibles para inspección</li>
+                        </ul>
+                    </li>
+                    <li><strong>Renovación:</strong>
+                        <ul>
+                            <li>Según vigencia del permiso</li>
+                            <li>Renovar antes de vencimiento</li>
+                            <li>Actualizar documentación</li>
+                        </ul>
+                    </li>
+                    <li><strong>Modificaciones:</strong>
+                        <ul>
+                            <li>Notificar cambios en el vehículo</li>
+                            <li>Notificar cambios de ubicación</li>
+                            <li>Actualizar permiso si es necesario</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <div class="img-placeholder">
+                    <div>
+                        <i style="font-size: 3rem;">🔄</i>
+                        <p>Mantenimiento</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="recipe-card">
+        <h3 class="recipe-title">Costos Aproximados</h3>
+        <div class="row">
+            <div class="col-md-8">
+                <h5>Inversión Inicial:</h5>
+                <ul>
+                    <li><strong>Curso de manipulación de alimentos:</strong> $30,000 - $80,000 CLP</li>
+                    <li><strong>Examen médico:</strong> $15,000 - $30,000 CLP</li>
+                    <li><strong>Tramitación del permiso:</strong> $50,000 - $150,000 CLP</li>
+                    <li><strong>Adecuaciones del vehículo:</strong> Variable (según estado inicial)</li>
+                    <li><strong>Equipamiento sanitario:</strong> $200,000 - $500,000 CLP</li>
+                </ul>
+                <div class="info-box mt-3">
+                    <strong>Nota:</strong> Los costos pueden variar según la región y las condiciones específicas.
+                    Consulta directamente con SEREMI de Salud de tu región para información actualizada.
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="img-placeholder">
+                    <div>
+                        <i style="font-size: 3rem;">💰</i>
+                        <p>Costos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="success-box mt-4">
+        <h5>✅ Checklist Pre-Inspección:</h5>
+        <ul>
+            <li>☐ Food truck cumple requisitos de infraestructura</li>
+            <li>☐ Agua potable certificada disponible</li>
+            <li>☐ Lavamanos funcional con agua caliente</li>
+            <li>☐ Refrigerador con termómetro funcionando</li>
+            <li>☐ Área de preparación limpia y organizada</li>
+            <li>☐ Sistema de eliminación de residuos adecuado</li>
+            <li>☐ Personal capacitado con certificados vigentes</li>
+            <li>☐ Exámenes médicos al día</li>
+            <li>☐ Documentación completa</li>
+            <li>☐ Registros iniciados</li>
+        </ul>
+    </div>
+
+    <div class="warning-box mt-4">
+        <h5>📞 Información de Contacto:</h5>
+        <p>
+            Para información específica y actualizada, contacta a la <strong>SEREMI de Salud</strong> de tu región.
+            Puedes encontrar la información de contacto en el sitio web del Ministerio de Salud de Chile:
+            <a href="https://www.minsal.cl" target="_blank" class="text-decoration-none">www.minsal.cl</a>
+        </p>
+    </div>
+</div>

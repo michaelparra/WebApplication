@@ -1,11 +1,110 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Inicio - Barismo & Café Especialidad";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Bienvenidos a mi sitio</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-    <p>Learn about <a href="https://github.com/michaelparra/WebApplication/actions/workflows/master_webapplication.yml">CI/CD github actions and azure web app</a>.</p>
+<div class="hero-section text-center">
+    <div class="container">
+        <h1 class="display-4 mb-4">☕ Barismo & Café Especialidad</h1>
+        <p class="lead">Tu guía completa para el mundo del café de especialidad y emprendimiento en Chile</p>
+        <p class="mt-3">Desde la selección de granos hasta la gestión de tu food truck móvil</p>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row mb-5">
+        <div class="col-md-12">
+            <h2 class="section-title">Bienvenido al Arte del Barismo</h2>
+            <p class="lead">
+                Este sitio web está diseñado para ayudarte a convertirte en un experto en barismo y café de especialidad,
+                con un enfoque especial en el emprendimiento de un local móvil (food truck) en Chile.
+            </p>
+        </div>
+    </div>
+
+    <div class="row mb-5">
+        <div class="col-md-4 mb-4">
+            <div class="coffee-card card h-100">
+                <div class="img-placeholder">
+                    <div>
+                        <i style="font-size: 3rem;">☕</i>
+                        <p class="mt-2">Café de Especialidad</p>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Café & Técnicas</h5>
+                    <p class="card-text">Aprende sobre café de especialidad, granos, tueste, preparación y máquinas de café.</p>
+                    <a href="/CafeEspecialidad" class="btn btn-primary">Explorar</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="coffee-card card h-100">
+                <div class="img-placeholder">
+                    <div>
+                        <i style="font-size: 3rem;">📖</i>
+                        <p class="mt-2">Recetas y Prácticas</p>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Recetas & Prácticas</h5>
+                    <p class="card-text">Descubre recetas, buenas prácticas de barismo y manejo seguro de alimentos.</p>
+                    <a href="/Recetas" class="btn btn-primary">Explorar</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="coffee-card card h-100">
+                <div class="img-placeholder">
+                    <div>
+                        <i style="font-size: 3rem;">🚚</i>
+                        <p class="mt-2">Emprendimiento</p>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Emprendimiento</h5>
+                    <p class="card-text">Guía completa sobre permisos, impuestos y gestión de food truck en Chile.</p>
+                    <a href="/FoodTruck" class="btn btn-primary">Explorar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="info-box">
+        <h4>🎯 Sobre este Sitio</h4>
+        <p>
+            Este sitio web está construido con <strong>ASP.NET Core</strong> y sigue las mejores prácticas de Microsoft
+            para desarrollo web. Incluye información completa sobre:
+        </p>
+        <ul>
+            <li><strong>Café de Especialidad:</strong> Todo lo que necesitas saber sobre granos, tueste y preparación</li>
+            <li><strong>Recetas y Técnicas:</strong> Recetas profesionales y buenas prácticas de barismo</li>
+            <li><strong>Manejo de Alimentos:</strong> Normas y prácticas para manipulación segura de alimentos</li>
+            <li><strong>Emprendimiento en Chile:</strong> Permisos sanitarios, impuestos, licencias y consideraciones para food truck</li>
+        </ul>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col-md-6">
+            <div class="success-box">
+                <h5>✅ ¿Por qué Café de Especialidad?</h5>
+                <p>
+                    El café de especialidad se diferencia por su calidad excepcional, trazabilidad del origen,
+                    y procesos cuidadosos desde la cosecha hasta la taza. En Chile, este mercado está en crecimiento
+                    y ofrece excelentes oportunidades para emprendedores.
+                </p>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="warning-box">
+                <h5>⚠️ Importante para Emprendedores</h5>
+                <p>
+                    Antes de iniciar tu food truck de café, es esencial conocer todos los requisitos legales
+                    en Chile: permisos sanitarios, registro en SII, permisos municipales, y más.
+                    Este sitio te guía paso a paso.
+                </p>
+            </div>
+        </div>
+    </div>
 </div>
