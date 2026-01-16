@@ -138,3 +138,26 @@ body {
   text-align: center;
   padding: 20px;
 }
+
+.author-section {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.author-section:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.author-image {
+  transition: transform 0.3s ease;
+}
+
+.author-image:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .author-image {
+    max-width: 200px !important;
+  }
+}
