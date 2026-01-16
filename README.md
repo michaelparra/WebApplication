@@ -105,13 +105,22 @@ WebApplication/
 - **Imágenes**: El sitio utiliza placeholders para imágenes. Se recomienda agregar imágenes reales relacionadas con café/barismo sin derechos de autor.
 - **Precios**: Los precios mencionados son estimados y pueden variar según la región y condiciones del mercado.
 
+## Contacto
+
+Para consultas sobre el contenido del sitio, contacta a:
+- **Jesnybel Rodriguez** - Autora, Administradora y Creadora de Contenido
+- Ver página de [Contacto](/Contacto) en el sitio web
+
 ## Licencia
 
 Este proyecto es de código abierto y está disponible para uso educativo y comercial.
 
 ## Autor
 
-Desarrollado como guía completa para emprendedores del café en Chile.
+**Jesnybel Rodriguez**  
+Autora, Administradora y Creadora de Contenido
+
+Este sitio web ha sido desarrollado por Jesnybel Rodriguez como una guía completa para emprendedores del café en Chile.
 
 ## Recursos Adicionales
 
